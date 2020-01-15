@@ -39,7 +39,7 @@ fields:
   type: blocks
   label: blocks
   template_types:
-  - blog-post
+  - slider
   config:
     min: 
     max: 
