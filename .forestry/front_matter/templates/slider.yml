@@ -1,4 +1,22 @@
 ---
 label: Slider
 hide_body: true
-fields: []
+fields:
+- name: images
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: images
